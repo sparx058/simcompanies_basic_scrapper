@@ -56,3 +56,7 @@ Here's a benchmark to easily grasp the difference:
 *percentage utilization
 
 **o for Original , u for Update 1
+
+Here's some graphs to understand if you're even more retarded than me
+
+![contact me if this goes down](https://i.imgur.com/SrAJ0Un.png) ![ontact me if this goes down](https://i.imgur.com/WHwzLo9.png) 
