@@ -19,7 +19,6 @@ headers = {  # First line of defense
 }
 
 
-# myid=1032718
 def get_list_o_players(start_id, end_id):
     tutorial_count = 0
     list_of_players = []
