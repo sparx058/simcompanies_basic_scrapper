@@ -2,7 +2,7 @@
 Pretty basic and bare bones Sim Companies Player Info Scrapper.
 Currently, it has following features:
 - Returns Name, ID, Level, Rank, Date & Time Joined
-- Saves this data into a `.csv`[comma seperated] file
+- Saves this data into a `.csv` file
 
 ## Usage
 In the file **sim_companies_scrapper_main.py :** 
@@ -20,7 +20,7 @@ Eg, I want to look up ID:1004078 the my lines will look like
 
 `66. e_id = 1004078`
 
--  You can find you ID by going to [My ID](https://www.simcompanies.com/api/v2/players/me/ "My ID"), if you have an account already.
+-  You can find your ID by going to [My ID](https://www.simcompanies.com/api/v2/players/me/ "My ID"), if you have an account already.
 
 The default program runs for  range `[1032750-1032760]`.
 
@@ -30,11 +30,9 @@ Thats it for  my second ever half-decent python program.
 
 ### Speed-up
 
-If you ever used the original upload, you would remember how slow it was
+Initialy, it was excruciatingly slow. After reading few articles and following some tutorials, I implemented half-baked parallel processing. Hence, it became almost 80-100% faster.
 
-Well, now its much faster. Still not fast but very much better than before.
-
-Here's a benchmark to easily grasp the difference:
+Here's the benchmark:
 
 | Players | Time(s) | %CPU* | %RAM* | O/U** |
 | ----- | ----- | ----- | ----- | ------ |
@@ -57,6 +55,6 @@ Here's a benchmark to easily grasp the difference:
 
 **o for Original , u for Update 1
 
-Here's some graphs to understand if you're even more retarded than me
+Here's some graphs to understand it better for fellow smol brainers.
 
 ![contact me if this goes down](https://i.imgur.com/SrAJ0Un.png) ![ontact me if this goes down](https://i.imgur.com/WHwzLo9.png) 
